@@ -8,9 +8,9 @@
                 array('name'=>'description','content'=>'Meu website de receitas'),
                 array('name'=>'keywords','content'=>'Receitas, doces, salgados, sobremesas, massa'),
                 array('name'=>'robots','content'=>'no-cache'),
-                array('name'=>'Content-Type', 'content' =>'text/html; charset=uf-8','type' =>'equiv'));
+                array('name'=>'Content-Type', 'content' =>'text/html; charset=utf-8','type' =>'equiv'));
          echo meta($meta);
-         echo link-tag('assets/img/fork.iko','shotcurt icon', 'image/ico');
+         echo link_tag('assets/imgs/fork.ico','shortcut icon','image/ico');
          echo link_tag('assets/css/layout.css');
          ?>
     </head>
