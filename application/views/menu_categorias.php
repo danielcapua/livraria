@@ -1,8 +1,13 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<div id="Menu_de_categorias" class="gradiente0 sombra radious">
+    <h2 Categorias</h2>
+    <ul>
+        <?php foreach($categorias as $cat):?>
+        <li class='gradiente1 radious'>
+            <?php
+            echo anchor ('receitas/categoria/'.$cat->slug_categoria, $cat->categoria);
+            ?>
+           
+        </li>
+         <?php endforeach;?>
+    </ul>
+</div>
